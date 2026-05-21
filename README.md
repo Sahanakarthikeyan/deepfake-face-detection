@@ -23,19 +23,6 @@ The system integrates **Explainable AI (XAI)** to visually explain every predict
 
 ---
 
-## Features
-
-- Binary deepfake classification (REAL / FAKE)
-- MTCNN-based accurate face detection and preprocessing
-- CSWin Transformer with reduced O(N√N) complexity
-- Integrated Gradients + SmoothGrad + Occlusion Sensitivity (XAI)
-- Anatomical region importance breakdown (Forehead, Eyes, Nose, Mouth, Cheeks)
-- Interactive Gradio web UI with streaming XAI output
-- Confusion matrix, ROC curve, Precision-Recall, F1 evaluation plots
-- Resume training from checkpoint
-
----
-
 ## Project Structure
 
 ```
