@@ -686,9 +686,6 @@ demo = gr.Interface(
     title="Deepfake Detection — CSWin Transformer",
     description=(
         "Upload a face image to detect if it's **Real** or **Fake**.\n\n"
-        "The verdict appears instantly. "
-        "The full explanation (Integrated Gradients + SmoothGrad + "
-        "Occlusion Sensitivity + Region Importance) follows in ~30 seconds."
     ),
     # allow_flagging="never",
     theme=gr.themes.Soft(),
